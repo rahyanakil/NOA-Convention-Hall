@@ -1,0 +1,167 @@
+/* navigation bar start */
+.navbar {
+    background-color: white;
+    padding: 10px 20px;
+  }
+  .navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #333;
+  }
+  .nav-link {
+    font-weight: bold;
+    color: #555;
+    margin: 0 10px;
+  }
+  .nav-link:hover {
+    color: #000;
+  }
+  .navbar-toggler {
+    border: none;
+  }
+/* navigation bar end */
+
+
+
+.hero-section {
+    background: url('Assets/hero.png') no-repeat center center/cover;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  /* album section start */
+  .moment-section img {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .moment-section h2 {
+    font-size: 2rem;
+    color: #212529;
+  }
+  
+  .moment-section p {
+    color: #6c757d;
+    margin: 1rem 0;
+  }
+  
+  .moment-section .btn {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    font-weight: 600;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .moment-section .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .moment-section span {
+    font-size: 1.2rem;
+  }
+  
+  /* album section end */
+  /* packages section start */
+  .packages-section h2 {
+    font-size: 2rem;
+    color: #212529;
+  }
+  
+  .package-card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .package-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+  }
+  
+  .package-card .price {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #007bff;
+  }
+  
+  .package-card .package-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #212529;
+  }
+  
+  .package-card .featured {
+    background-color: #007bff;
+    color: white;
+    position: relative;
+  }
+  
+  .featured .btn {
+    background-color: white;
+    color: #007bff;
+    border: none;
+  }
+  
+  .featured .btn:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .package-card .btn {
+    margin-top: 1rem;
+    padding: 0.5rem 1.5rem;
+    border-radius: 30px;
+    font-weight: 600;
+  }
+  
+  /* packages section end */
+  /* Happy client section start  */
+  .card {
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+  }
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  .rounded-circle {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+  }
+  h2 {
+    font-weight: bold;
+    color: #333;
+  }
+  /* Happy client section end */
+  /* faq section start */
+  .accordion-button {
+    background-color: #f8f9fa;
+    color: #333;
+  }
+  .accordion-button:focus {
+    box-shadow: none;
+  }
+  /* faq section end */
+  /* footer section start */
+  .footer {
+    background-color: #111; /* Dark background */
+    color: #fff; /* White text color */
+    padding: 20px 0;
+  }
+  .footer .copyright {
+    font-size: 14px;
+  }
+  .footer .app-links img {
+    height: 40px;
+  }
+  /* footer section end */
+ 
+  
